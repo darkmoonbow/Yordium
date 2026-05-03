@@ -1,0 +1,239 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-image: url('/images/topbartexture.png');
+    background-repeat: repeat;
+    background-size: auto;
+    height: 60px;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+    width: 65%;
+}
+
+.logo {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.bit-icon {
+    background: url('/images/icons/bit.png');
+}
+
+.byte-icon {
+    background: url('/images/icons/byte.png');
+}
+
+.offline-icon {
+    background: url('/images/icons/status_offline.png');
+}
+
+.email-icon {
+    background: url('/images/icons/email.png');
+}
+
+.online-icon {
+    background: url('/images/icons/status_online.png');
+}
+
+.mail-icon {
+    background: url('/images/icons/status_online.png');
+
+}
+
+.unread-badge {
+    position: absolute;
+    background: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 50%;
+    min-width: 18px;
+    text-align: center;
+    line-height: 1;
+}
+
+.inbox {
+    grid-column: 2;
+}
+
+.messages {
+    list-style: none;
+    padding:5px;
+}
+
+.messages li {
+    border-style: groove;
+}
+input, textarea {
+    border-style: dashed;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+p {
+    color: rgb(68, 68, 68);
+}
+
+section {
+    font-size: large;
+}
+.message {
+    border-style: dashed;
+    margin: 5px;
+}
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: auto; 
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px 0;
+    gap: 20px; 
+    row-gap: 20px;
+}
+
+.featured-image {
+    grid-column: 1 / 2;
+    justify-self: end;
+}
+
+.featured-image img {
+    max-height: 200px;
+    border-style:ridge;
+}
+
+.about {
+    grid-column: 1 / 2;
+}
+
+.loginform {
+
+    padding: 20px;
+    grid-column: 3; 
+    justify-self: start;
+}
+
+.signupform {
+
+    padding: 40px;
+    grid-column: 3; 
+    justify-self: center;
+}
+
+.box1 {
+    background-color: #5d7d9eff;
+    border-style: solid;
+    border-color: #136a85ff;
+    border-width: 2px;
+    color: #FFF;
+    padding:10px;
+}
+
+.userpageWrapper {
+    display: grid;
+    width: 65%;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr auto;
+}
+.panel3 {
+  grid-column: 1 / span 2;
+}
+
+
+.recentUsers {
+    grid-column: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: max-content;
+    padding: 10px;
+    justify-self: end;
+    
+}
+
+.userWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userName {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.userBox {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    overflow:hidden;
+}
+
+.userBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding-right: 15px;
+    margin-left: 10px;
+    
+}
+
+.nav-buttons {
+    color: white;
+}
+
+
+
+.link1 {
+    font-size:small;
+}
+
+.button1 {
+    background-color: rgb(131, 168, 206);
+    border-style: inset;
+    border-color: #136a85ff;
+    border-width: 2px;
+    cursor: pointer;
+    color:rgb(241, 240, 240);
+}
+
+.button:hover {
+    background-color: rgb(164, 180, 196);
+}

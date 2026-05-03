@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom CSS below, e.g. body font fallback */
+body {
+  font-family: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+}

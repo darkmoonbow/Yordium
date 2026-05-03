@@ -1,0 +1,15 @@
+.place-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; 
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px 0;
+    gap: 20px; 
+    row-gap: 20px;
+}
+
+.thumbnail {
+    border-width: 3px;
+    border-style:inset;
+}

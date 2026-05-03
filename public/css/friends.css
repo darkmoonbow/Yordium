@@ -1,0 +1,54 @@
+.people-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 12px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.userWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5d7d9eff;
+    border: 2px solid #136a85ff;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    text-wrap-mode: wrap;
+}
+
+.userBox {
+    width: 60px;
+    height: 60px;
+    background-color: #136a85ff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.userBox img.character {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.userName {
+    font-size: 12px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+/* Optional buttons under username */
+.button1.accept,
+.button1.remove {
+    font-size: 10px;
+    padding: 2px 6px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
