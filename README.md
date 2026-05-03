@@ -1,2 +1,2 @@
-![Screenshot](./yordiumHomePage.png)
+![Main Page](./image.png)
 ## Yordium
